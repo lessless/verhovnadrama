@@ -66,6 +66,21 @@ html, body {
 }
 
 // total counter
+h3 {
+  padding-top: 2em;
+}
 span.total-dramas {
   color: #50AC83;
+}
+
+// common styles
+a:link {color: #25020F}
+a:active {color: #25020F}
+a:visited {color: #25020F}
+a:hover {color: #25020F}
+
+.past-dramas {
+  text-align: left;
+  line-height: 2em;
+  ul, ol {padding: 0;}
 }
