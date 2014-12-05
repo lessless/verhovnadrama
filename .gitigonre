@@ -1,0 +1,14 @@
+# Created by https://www.gitignore.io
+
+### Yeoman ###
+node_modules/
+bower_components/
+*.log
+
+build/
+dist/
+
+
+### Bower ###
+bower_components
+
