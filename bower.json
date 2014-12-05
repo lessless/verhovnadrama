@@ -2,6 +2,7 @@
   "name": "verhovnadrama",
   "private": true,
   "dependencies": {
-    "jquery": "~2.1.1"
+    "jquery": "~2.1.1",
+    "countdown.js": "~1.1.0"
   }
 }
