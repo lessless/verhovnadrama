@@ -6,9 +6,14 @@ $counter-height: $base-counter-height + $youtube-video-height;
 $counter-width: 920px;
 $footer-height: 62px;
 
+@font-face {
+    font-family: 'Arsenal-Regular'; /*a name to be used later*/
+    src: url('http://verhovnadrama.info/fonts/Arsenal-Regular.ttf'); /*URL to font*/
+}
+
 body {
   background: #E9E9E9;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Arsenal-Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #333;
   background-image: url(../images/background.jpg);
 }
