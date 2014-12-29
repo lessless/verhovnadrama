@@ -8,7 +8,7 @@
 
   function update() {
     var units = countdown.YEARS | countdown.MONTHS | countdown.DAYS; // jshint ignore:line
-    var elapsed = countdown( new Date(2014, 12-1, 25, 17), null, units );
+    var elapsed = countdown( new Date(2014, 12-1, 29, 17), null, units );
 
     document.getElementById('months').innerHTML = formatTens(elapsed.months);
     document.getElementById('days').innerHTML = formatTens(elapsed.days);
